@@ -87,7 +87,7 @@ High-Level Workflow:
 User Speech → Audio Upload → FFmpeg Conversion → Whisper ASR (Groq)
 → LLaMA 3.3 Interview Logic → Streamlit UI → Loop
 
-Architecture Diagram (Mermaid Format):
+Architecture Diagram:
 --------------------------------------
 
 <img width="1717" height="962" alt="Mock Interview Agent" src="https://github.com/user-attachments/assets/8e4800a4-e4ca-4531-abd4-b4e3f374e211" />
@@ -96,6 +96,7 @@ Architecture Diagram (Mermaid Format):
 
 SUPPORTED INTERVIEW ROLES
 -------------------------
+
 • Software Engineer
 • Data Analyst
 • Product Manager
@@ -113,6 +114,7 @@ README.txt    - Documentation
 
 DESIGN DECISIONS
 ----------------
+
 • Built as a single-file agent for simplicity and clarity.  
 • Uses Groq Whisper for fast and accurate speech recognition.  
 • Uses Groq LLaMA 3.3 model for dynamic interview question generation.  
