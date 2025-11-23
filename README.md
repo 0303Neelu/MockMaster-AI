@@ -1,4 +1,4 @@
-AI INTERVIEWER AGENT
+MockMaster AI- AI INTERVIEWER AGENT
 ====================
 
 This project implements a lightweight AI-powered voice-based Interview Agent.
